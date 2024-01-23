@@ -1,0 +1,168 @@
+/* styles.css - Updated styling */
+body {
+  margin: 0px;
+}
+.testimonials-section {
+  padding: 20px;
+  background-color: #353e2d;
+  text-align: center;
+  h2 {
+    font-family: "poppins-medium";
+    font-size: 29px;
+    color: #ffffff;
+  }
+}
+
+.testimonials-container {
+  background-image: url('../src/assets/images/testimonial.png');
+  display: flex;
+  background-size: cover;
+  height: 65vh;
+  border-radius: 28px;
+  justify-content: space-around;
+  overflow-x: auto;
+  margin: 48px;
+}
+
+.testimonial {
+  max-width: 400px;
+  padding: 50px 30px;
+  margin: 50px;
+  border: 2px solid #ddd;
+  border-radius: 36px;
+  background-color: #d2c7c740;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  font-family: "poppins-regular";
+  font-size: 14px;
+}
+
+/* Apply styles when the testimonial is visible */
+.testimonial.visible {
+  /* Add any specific styles for visible testimonials if needed */
+}
+
+/* Apply styles when the testimonial is hidden */
+.testimonial.hidden {
+  display: none; /* Hide the hidden testimonials */
+}
+
+.testimonial-content {
+  font-size: 13px;
+  font-family: "poppins-regular";
+}
+
+.testimonial-author {
+  color: #e7e2e2;
+  font-size: 14px;
+  font-family: 'poppins-light';
+  margin-top: 50px;
+}
+//counselling form
+.counselling-form {
+  background-image: url('../src/assets/images/testimonial.png');
+  background-size: cover;
+  // height: 0vh;
+  p {
+    color: #ffffff;
+    font-family: "poppins-semibold";
+    font-size: 32px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 0px;
+  }
+  label {
+    color: #ffffff;
+    font-family: 'poppins-regular';
+    font-size: 14px;
+  }
+  .form-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+    margin: 38px;
+    column-gap: 112px;
+    margin: 40px 150px;
+    div {
+      display: grid;
+    }
+    input {
+      border: 2px solid #ddd;
+      border-radius: 7px;
+      background-color: #d2c7c740;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: #ffffff;
+      font-family: "poppins-regular";
+      font-size: 14px;
+      margin-top: 14px;
+      margin-bottom: 15px;
+      padding: 6px 10px;
+      outline: none;
+      width: 300px;
+    }
+    select {
+      color: #ffffff;
+      font-family: "poppins-regular";
+      font-size: 14px;
+      border: 2px solid #ddd;
+      border-radius: 7px;
+      background-color: #d2c7c740;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 6px 10px;
+      cursor: pointer;
+      outline: none;
+      height: 37px;
+      width: 320px;
+    }
+    option {
+      color: #000000;
+      cursor: pointer;
+    }
+    textarea {
+      border: 2px solid #ddd;
+      border-radius: 7px;
+      background-color: #d2c7c740;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: #ffffff;
+      font-family: "poppins-regular";
+      font-size: 14px;
+      margin-top: 14px;
+      margin-bottom: 15px;
+      padding: 6px 10px;
+      outline: none;
+      width: 300px;
+    }
+  }
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    button {
+      border: 2px solid #ddd;
+      border-radius: 20px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: #000000;
+      font-family: "poppins-semibold";
+      font-size: 16px;
+      padding: 10px 30px;
+      cursor: pointer;
+    }
+  }
+}
+.healthcare {
+  background-image: url('../src/assets/images/doctors.jpg');
+  height:100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  p {
+    font-family: "poppins-semibold";
+    font-size: 67px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 253px 188px;  
+    margin: 0px;
+  }
+}
